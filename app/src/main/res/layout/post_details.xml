@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lyt_posts"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:ellipsize="marquee"
+                android:maxWidth="250dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/txt_title"
+                android:layout_marginLeft="@dimen/title_margin"
+                android:layout_marginStart="@dimen/title_margin"
+                android:textSize="16sp"
+                android:text="Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_toRightOf="@+id/txt_title"
+                android:layout_toEndOf="@+id/txt_title"
+                android:id="@+id/ic_favourite"
+                android:src="@android:drawable/star_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:ellipsize="marquee"
+            android:id="@+id/txt_body"
+            android:layout_margin="@dimen/content_margin"
+            android:textSize="14sp"
+            android:text="content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

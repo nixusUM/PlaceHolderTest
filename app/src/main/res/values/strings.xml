@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlaceHolderTest</string>
+    <string name="no_internet">Network error.nPlease check your internet connection and try again</string>
+    <string name="remove_favourite">Remove this post from favourite?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+</resources>
